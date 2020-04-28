@@ -1,0 +1,27 @@
+package com.company;
+
+public class Subnautica implements GamingConsole{
+
+    @Override
+    public void up() {
+        System.out.println("Jump");
+    }
+
+    @Override
+    public void down() {
+        System.out.println("Crouches");
+
+    }
+
+    @Override
+    public void left() {
+        System.out.println("Turns Left");
+
+    }
+
+    @Override
+    public void right() {
+        System.out.println("Turns Right");
+
+    }
+}
